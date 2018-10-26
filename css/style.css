@@ -1,0 +1,393 @@
+body {
+    margin: 0px;
+    background-image:url('../assets/bg_4.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+}
+
+#slideShow {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/bg_1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#slideShow h2 {
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    color: #c49b63;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-align: center;
+    width: 600px;
+    word-spacing: 5px;
+    margin-top: 10px  
+
+}
+
+
+#slideShow p {
+    color: antiquewhite;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    width: 700px;
+    line-height:30px; 
+}
+
+button {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 18px;
+    background: none;
+    border:1px solid #c49b63;
+    color: #c49b63;
+}
+button:hover {
+    color: black;
+    background-color: #c49b63;
+}
+
+#contact {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    color: #c49b63;
+    background-color: black;
+    text-align: center;
+}
+
+#contact .phone , .dirction , .open {
+    width: 300px;
+}
+
+#contact h3 {
+    color: white;
+}
+
+#contact i {
+    margin-right: 5px;
+    color: #c49b63;
+}
+#story {
+    width: 100%;
+    position: relative;
+
+}
+
+#story .image {
+    height: 800px;
+    width: 60%;
+    background-image: url(../assets/about.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#story .text {
+    z-index: 2;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    height: 400px;
+    width: 30%;
+    padding: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#story .text h3 {
+    color: #c49b63;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: -25px;
+    font-size: 50px; 
+    font-weight: lighter;
+
+}
+
+#story .text h2 {
+    margin-top: 0px; 
+    margin-bottom: 10px; 
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 50px;
+
+}
+
+#story .text p {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    line-height: 20px;
+    color: grey;
+}
+
+#delivery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: #c49b63;
+    text-align: center;
+}
+
+#delivery section {
+    width: 300px;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding-top: 105px;
+    padding-bottom: 105px;
+
+}
+
+#menu .img  {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+
+}
+
+#menu .img section {
+    padding-right: 30px;
+}
+
+
+#menu .our {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+#menu .our h3 {
+    color: #c49b63;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: -25px;
+    font-size: 50px; 
+    font-weight: lighter;
+
+}
+
+#menu .our h2 {
+    color: white;
+    font-family:  "Josefin Sans", Arial, sans-serif;
+    margin: 0px;
+    font-size: 50px;
+}
+
+#menu .our p {
+    width: 500px;
+    line-height: 30px;
+    color: grey;
+    font-family:  "Josefin Sans", Arial, sans-serif;
+    text-align: end;
+}
+
+#menu div {
+    height: 210px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#menu .menu1 {
+    background-image: url('../assets/menu-1.jpg');
+    margin-bottom: 50px;
+}
+
+#menu .menu2 {
+    background-image: url('../assets/menu-2.jpg');
+}
+
+#menu .menu3 {
+    background-image: url('../assets/menu-3.jpg');
+    margin-top: 50px;
+}
+
+#menu .menu4 {
+    background-image: url('../assets/menu-4.jpg');
+    margin-top: 50px;
+}
+
+#coffee {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url('../assets/bg_2.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+#coffee h2 {
+    color: #ee9f30;
+    font-size: xx-large;
+    font-family:  "Josefin Sans", Arial, sans-serif;
+}
+
+#coffee p {
+    color: gray;
+    font-family:  "Josefin Sans", Arial, sans-serif;
+    font-size: x-large;
+}
+
+#coffee img {
+    border: 2px solid #c49b63;
+    padding: 20px;
+    background: black;
+    opacity: .5;
+}
+
+#coffee section {
+    background-color: black;
+    opacity: .5;
+    width: 25%;
+    padding-top: 75px;
+    padding-bottom: 75px; 
+
+}
+
+#best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;  
+    margin-bottom: 48px;  
+}
+
+#best .best2 {
+    width: 100%;
+    margin: 0px 15px 48px;
+}
+
+#best .best2 p {
+    width: 600px;
+}
+
+#best .best2 h3 {
+    color: #c49b63;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    margin-bottom: -30px;
+    font-weight: lighter;
+}
+
+#best .best2 h2 {
+    color: #fff;
+    font-family:  "Josefin Sans", Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 40px; 
+}
+
+#best .best2 p {
+    color: gray;
+    font-family: "Josefin sana", Arial, sans-serif;
+    padding-bottom: 16px;
+}
+
+#best .coffee1,.coffee2,.coffee3,.coffee4 {
+    width: 25%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+#best section h3,h5 {
+    color: #fff;
+    font-family: "Josefin sana", Arial, sans-serif;
+    font-size: 20px; 
+}
+
+#best section p {
+    color: gray;
+    font-family: "Josefin sana", Arial, sans-serif; 
+    width: 200px;
+    line-height: 25px
+}
+
+#best section button {
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    font-size: medium;
+    
+}
+
+#best .img1,.img2,.img3,.img4 {
+    height: 210px;
+    width: 200px;
+}
+
+#best .coffee1 .img1 {
+    background-image: url('../assets/menu-1.jpg');
+    background-position: center;
+    background-size: cover; 
+}
+
+#best .coffee2 .img2 {
+    background-image: url('../assets/menu-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#best .coffee3 .img3 {
+    background-image: url('../assets/menu-3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#best .coffee4 .img4 {
+    background-image: url('../assets/menu-4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 500px) {
+    #slideShow {
+        width: 100%;
+    }
+}
