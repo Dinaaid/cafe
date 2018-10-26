@@ -8,7 +8,7 @@ body {
 
 #slideShow {
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@ h1 {
     letter-spacing: 1px;
     font-family: "Josefin Sans", Arial, sans-serif;
     text-align: center;
-    width: 600px;
+    max-width: 600px;
     word-spacing: 5px;
     margin-top: 10px  
 
@@ -47,7 +47,7 @@ h1 {
     font-family: "Josefin Sans", Arial, sans-serif;
     font-size: large;
     text-align: center;
-    width: 700px;
+    max-width: 700px;
     line-height:30px; 
 }
 
@@ -76,7 +76,7 @@ button:hover {
 }
 
 #contact .phone , .dirction , .open {
-    width: 300px;
+   max-width: 300px;
 }
 
 #contact h3 {
@@ -241,7 +241,6 @@ button:hover {
 }
 
 #coffee {
-    position: relative;
     height: 400px;
     width: 100%;
     background-image: url('../assets/bg_2.jpg');
@@ -252,11 +251,8 @@ button:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    position: relative;
 
 }
-
-
 
 #coffee h2 {
     color: #ee9f30;
@@ -278,11 +274,7 @@ button:hover {
 }
 
 #coffee section {
-    background-color: black;
-    opacity: .5;
     width: 25%;
-    padding-top: 75px;
-    padding-bottom: 75px; 
 
 }
 
@@ -303,7 +295,7 @@ button:hover {
 }
 
 #best .best2 p {
-    width: 600px;
+    max-width: 600px;
 }
 
 #best .best2 h3 {
@@ -344,7 +336,7 @@ button:hover {
 #best section p {
     color: gray;
     font-family: "Josefin sana", Arial, sans-serif; 
-    width: 200px;
+    max-width: 200px;
     line-height: 25px
 }
 
@@ -387,7 +379,125 @@ button:hover {
 
 
 @media screen and (max-width: 500px) {
-    #slideShow {
+    #slideShow h1,h2 {
+        font-size: 20px;
+    }
+
+    #slideShow p {
+        font-size: 15px; 
+        padding: 30px;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        font-size: 15px;
+        padding: 10px;
+    }
+    #contact {
+        height: auto;
+        flex-direction: column;
+        padding: 0px;
+
+    }
+    #contact div {
+        width: 100%;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    #story .image {
         width: 100%;
     }
+
+    #story .text {
+        height: auto;
+        width: 90%;
+        position: static;
+        padding:  0px;
+        text-align: justify;
+        padding: 19px;
+        
+    }
+
+    #story .text h3 {
+        font-size: 30px;
+        margin-bottom: -15px
+    }
+
+    #delivery {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    #menu {
+        height: auto;
+        flex-direction: column;
+        padding: 30px 0px ;
+
+    }
+    
+    #menu .our {
+        height: auto;
+        width: 90%;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 19px;
+    }
+
+    #menu .our p{
+        width: auto;
+        text-align: start;
+    }
+
+    #menu .img,section {
+        height: auto;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #menu .img section {
+        padding-right: 0px;
+    }
+
+    #menu div {
+        height: 210px;
+        width: 100%;
+        background-position: top;
+        margin: 0px;
+    }
+
+    #coffee {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px 0px;
+        background-attachment: local;
+    }
+
+    #coffee section {
+        padding: 0px;
+        width: 100%;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    #best section {
+        width: 100%;
+    }
+
+    #best .coffee1,.coffee2,.coffee3,.coffee4 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #best 
+
+    #best .img1,.img2,.img3,.img4 {
+        width: 90%;
+        margin: 19px;
+    }
+
+
 }
