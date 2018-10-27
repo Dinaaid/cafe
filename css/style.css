@@ -106,8 +106,8 @@ button:hover {
     top: 20%;
     left: 50%;
     position: absolute;
-    height: 400px;
-    width: 30%;
+    height: auto;
+    max-width: auto;
     padding: 30px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
@@ -136,6 +136,7 @@ button:hover {
     font-family: "Josefin Sans", Arial, sans-serif;
     line-height: 20px;
     color: grey;
+    max-width: 400px;
 }
 
 #delivery {
@@ -155,7 +156,7 @@ button:hover {
 #menu {
     display: flex;
     align-items: center;
-    height: 500px;
+    height: auto;
     width: 100%;
     padding-top: 105px;
     padding-bottom: 105px;
@@ -163,7 +164,7 @@ button:hover {
 }
 
 #menu .img  {
-    height: 100vh;
+    height: auto;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -206,7 +207,7 @@ button:hover {
 }
 
 #menu .our p {
-    width: 500px;
+    max-width: 500px;
     line-height: 30px;
     color: grey;
     font-family:  "Josefin Sans", Arial, sans-serif;
@@ -251,6 +252,7 @@ button:hover {
     display: flex;
     align-items: center;
     text-align: center;
+    text-shadow: 1px 1px 3px black;
 
 }
 
@@ -285,8 +287,7 @@ button:hover {
     text-align: center;
     flex-wrap: wrap;
     height: 500px;
-    width: 100%;  
-    margin-bottom: 48px;  
+    width: 100%;   
 }
 
 #best .best2 {
@@ -295,7 +296,9 @@ button:hover {
 }
 
 #best .best2 p {
+    display: inline-block;
     max-width: 600px;
+    align-self: center;
 }
 
 #best .best2 h3 {
@@ -314,10 +317,11 @@ button:hover {
     margin-bottom: 40px; 
 }
 
-#best .best2 p {
+#best .best2 section p {
     color: gray;
     font-family: "Josefin sana", Arial, sans-serif;
     padding-bottom: 16px;
+    width: 100%;
 }
 
 #best .coffee1,.coffee2,.coffee3,.coffee4 {
@@ -334,9 +338,10 @@ button:hover {
 }
 
 #best section p {
+    display: inline-block;
     color: gray;
     font-family: "Josefin sana", Arial, sans-serif; 
-    max-width: 200px;
+    width: 200px;
     line-height: 25px
 }
 
@@ -375,6 +380,15 @@ button:hover {
     background-image: url('../assets/menu-4.jpg');
     background-position: center;
     background-size: cover;
+}
+
+#end {
+    height: 300px;
+    display: flex;
+}
+
+#end img {
+    width: 25%;
 }
 
 
@@ -480,7 +494,6 @@ button:hover {
     #coffee section {
         padding: 0px;
         width: 100%;
-        text-shadow: 1px 1px 3px black;
     }
 
     #best section {
@@ -490,9 +503,14 @@ button:hover {
     #best .coffee1,.coffee2,.coffee3,.coffee4 {
         width: 100%;
         justify-content: center;
+        text-align: center;
     }
 
-    #best 
+    #best .best2 p{
+        display: inline-block;
+        max-width: 100%;
+        text-align: center;
+    }
 
     #best .img1,.img2,.img3,.img4 {
         width: 90%;
