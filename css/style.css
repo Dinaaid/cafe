@@ -1,3 +1,8 @@
+* {
+    transition: all 0.3s ease-in-out 0.3s;
+    -webkit-transition: all 0.3s ease-in-out 0.3s;
+}
+
 body {
     margin: 0px;
     background-image:url('../assets/bg_4.jpg');
@@ -79,6 +84,21 @@ button:hover {
    max-width: 300px;
 }
 
+#contact .phone {
+    transition: all 0.3s ease-in-out 0.3s;
+    -webkit-transition: all 0.3s ease-in-out 0.3s;
+}
+
+#contact .dirction {
+    transition: all 0.4s ease-in-out 0.4s;
+    -webkit-transition: all 0.4s ease-in-out 0.4s;
+}
+
+#contact .open {
+    transition: all 0.5s ease-in-out 0.5s;
+    -webkit-transition: all 0.5s ease-in-out 0.5s;
+}
+
 #contact h3 {
     color: white;
 }
@@ -111,6 +131,8 @@ button:hover {
     padding: 30px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out 0.4s;
+    -webkit-transition: all 0.4s ease-in-out 0.4s;
 }
 
 #story .text h3 {
@@ -146,6 +168,8 @@ button:hover {
     height: 500px;
     background-color: #c49b63;
     text-align: center;
+    transition: all 0.4s ease-in-out 0.4s;
+    -webkit-transition: all 0.4s ease-in-out 0.4s;
 }
 
 #delivery section {
@@ -176,7 +200,6 @@ button:hover {
 #menu .img section {
     padding-right: 30px;
 }
-
 
 #menu .our {
     height: 100vh;
@@ -275,6 +298,11 @@ button:hover {
     opacity: .5;
 }
 
+#coffee img:hover {
+    transform: rotate(130deg);
+
+}
+
 #coffee section {
     width: 25%;
 
@@ -286,8 +314,9 @@ button:hover {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    height: 500px;
-    width: 100%;   
+    height: auto;
+    width: 100%;  
+    padding: 105px 0px;  
 }
 
 #best .best2 {
@@ -306,6 +335,7 @@ button:hover {
     font-family: 'Great Vibes', cursive;
     font-size: 60px;
     margin-bottom: -30px;
+    margin-top: 0px;
     font-weight: lighter;
 }
 
@@ -383,14 +413,41 @@ button:hover {
 }
 
 #end {
-    height: 300px;
+    height: auto;
+    width: 100%;
     display: flex;
 }
 
-#end img {
+#end section{
+    height: 400px;
     width: 25%;
+    background-position: center;
+    background-size: cover;
 }
 
+#end .gallery1 {
+    background-image: url('../assets/gallery-1.jpg');
+    transition: all 0.2s ease-in-out 0.2s;
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
+}
+
+#end .gallery2 {
+    background-image: url('../assets/gallery-2.jpg');
+    transition: all 0.3s ease-in-out 0.3s;
+    -webkit-transition: all 0.3s ease-in-out 0.3s;
+}
+
+#end .gallery3 {
+    background-image: url('../assets/gallery-3.jpg');
+    transition: all 0.4s ease-in-out 0.4s;
+    -webkit-transition: all 0.4s ease-in-out 0.4s;
+}
+
+#end .gallery4 {
+    background-image: url('../assets/gallery-4.jpg');
+    transition: all 0.5s ease-in-out 0.5s;
+    -webkit-transition: all 0.5s ease-in-out 0.5s;
+}
 
 @media screen and (max-width: 500px) {
     #slideShow h1,h2 {
@@ -515,6 +572,15 @@ button:hover {
     #best .img1,.img2,.img3,.img4 {
         width: 90%;
         margin: 19px;
+    }
+
+    #end {
+        display: block;
+    }
+
+    #end section {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
 
